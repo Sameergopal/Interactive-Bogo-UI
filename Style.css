@@ -40,12 +40,11 @@ body {
     flex: 1;
     height: 2px;
     background-color: black;
-    margin: 0 10px; /* Adjust this to control the line length */
-    max-width: 90px; /* Limits the maximum width of the lines */
-  }
+    margin: 0 10px; 
+    max-width: 90px; 
   
   .heading-text {
-    white-space: nowrap; /* Prevents text from breaking */
+    white-space: nowrap; 
   }
   
   
