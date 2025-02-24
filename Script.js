@@ -9,7 +9,7 @@ function toggleBox(id) {
         box.classList.add("expanded");
     }
 
-    // Update selected price when an option is clicked
+
     updatePrice(id);
 }
 
@@ -19,7 +19,6 @@ function updatePrice(id) {
         selectedPrice = parseFloat(priceElement.textContent.replace("$", "").trim());
     }
 
-    // Update total price in UI
     document.querySelector(".total-usd").innerHTML = `<strong>Total: $${selectedPrice}.00 USD</strong>`;
 }
 
