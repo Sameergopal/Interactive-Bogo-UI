@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ensures full screen height */
+    height: 100vh; 
 }
 
 
@@ -48,12 +48,12 @@ body {
     flex: 1;
     height: 2px;
     background-color: black;
-    margin: 0 10px; /* Adjust this to control the line length */
-    max-width: 90px; /* Limits the maximum width of the lines */
+    margin: 0 10px; 
+    max-width: 90px; 
   }
   
   .heading-text {
-    white-space: nowrap; /* Prevents text from breaking */
+    white-space: nowrap; 
   }
   
   
@@ -131,10 +131,10 @@ body {
 .total-section {
     display:flex ;
     justify-content: space-evenly;
-    align-items: center; /* Aligns items in the center */
-    width: 100%; /* Ensures full-width */
-    max-width: 400px; /* Adjust size */
-    margin: 0 auto; /* Centers the section */
+    align-items: center; 
+    width: 100%; 
+    max-width: 400px; 
+    margin: 0 auto; 
     padding: 10px 0;
   }
   
