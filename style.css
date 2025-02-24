@@ -7,7 +7,8 @@ body {
 
 
 .container {
-    width: 400px;
+    width: 90%;
+    max-width: 600px;
     margin: 0 auto;
     background: #fff;
     padding: 20px;
@@ -125,6 +126,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 0 300px; 
+    flex-wrap: wrap; 
   }
   
   .free-delivery {
@@ -169,3 +171,19 @@ body {
 .box.expanded .box-content {
     display: block;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+
+    .total-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .add-to-cart {
+        width: 100%; 
+    }
+}
+
